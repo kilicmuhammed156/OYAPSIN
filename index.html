@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>O Yapsın - Yapay Zeka Video Oluşturucu</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>O Yapsın</h1>
+        <nav>
+            <a href="#">Ana Sayfa</a>
+            <a href="#">Şablonlar</a>
+            <a href="#">Fiyatlandırma</a>
+            <a href="#">İletişim</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero">
+            <h2>Yapay Zeka ile Kolayca Video Oluşturun</h2>
+            <p>Metin veya görsellerinizi kullanarak saniyeler içinde videolar oluşturun.</p>
+            <button id="create-button">Video Oluştur</button>
+        </section>
+
+        <section id="features">
+            <h3>Özellikler</h3>
+            <div class="feature">
+                <h4>Metinden Videoya</h4>
+                <p>Yazdığınız metinleri otomatik olarak videoya dönüştürün.</p>
+            </div>
+            <div class="feature">
+                <h4>Hazır Şablonlar</h4>
+                <p>Farklı amaçlar için hazırlanmış şablonları kullanın.</p>
+            </div>
+            <div class="feature">
+                <h4>Görsel ve Müzik Kütüphanesi</h4>
+                <p>Telifsiz görsel ve müziklerle videolarınızı zenginleştirin.</p>
+            </div>
+        </section>
+
+        <section id="video-creation" style="display: none;">
+            <h3>Video Oluşturma</h3>
+            <textarea id="text-input" placeholder="Metninizi buraya yazın..."></textarea>
+            <button id="generate-video">Video Oluştur</button>
+            <div id="video-output"></div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 O Yapsın</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
